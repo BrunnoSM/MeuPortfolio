@@ -1,0 +1,102 @@
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    font-family: Lato, 'Helvetica Neue', helvetica, arial, sans-serif;
+    color: black !important;
+}
+
+.photo-profile {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.colorPrimary {
+    background-color: rgb(44, 44, 44);
+}
+
+.colorSecondary {
+    background-color: #ffffff;
+}
+
+.icons {
+    padding-left:5px;
+    font-size: 30px;
+    color: #4D52CC;
+}
+
+.blackText {
+    color: black !important;
+}
+
+.whiteText {
+    color: white !important;
+}
+
+.purpleText {
+    color: #4D52CC !important;
+}
+
+.header {
+    position: center;
+
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.nav-item a{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    padding: 25px 0;
+    transition: .8s ease;
+    color: white !important;
+}
+
+.nav-item a:hover {
+    color: #4D52CC !important;
+}
+
+.navbar-toggler {
+    background-color: #4D52CC !important;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+.container-fluid h3 {
+    padding-top: 60px;
+}
+
+.textFooter {
+    margin: 0px;
+    padding: 5px;
+}
+
+@media screen and (max-width: 640px) {
+
+    .photo-profile {
+        height: 15em;
+        width: 15em;
+        max-width: 100%;
+        border-radius: 50%;
+    }
+
+    .container h1 {
+        font-size: 1em;
+    }
+
+    .container-fluid h3 {
+        padding-top: 60px;
+    }
+
+    .text-center {
+        font-size: 1em;
+    }
+}
